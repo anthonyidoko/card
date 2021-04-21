@@ -82,7 +82,7 @@ section.second{
     color: hsl(228, 45%, 44%);
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1439px) {
     body{
         padding: 0;
     }
