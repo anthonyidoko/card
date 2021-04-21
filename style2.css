@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: rgb(9, 11, 26);
+    font-family: 'lexend deca';
+    color: rgb(255, 255, 255); 
+    padding: 0 20px;
+}
+.container{
+    border-radius: 8px;
+    margin: 100px auto;
+}
+
+header{
+    font-size: 15px;
+}
+
+img{
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    font-weight: 400;   
+}
+
+
+main{
+    margin-top: -3px;
+    background: rgb(27, 25, 56);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding: 30px 0;
+    letter-spacing: 1px;
+
+}
+
+span.insight{
+    color: rgb(170, 92, 219)
+}
+
+h3{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    font-family: 'inter';
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 0.98em;
+    color: rgb(255, 255, 255); 
+}
+p{
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+    font-family: 'inter';
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0; 
+    color: rgba(255, 255, 255, 0.75); 
+}
+.second div p{
+    margin-top: 20px;
+}
+span.items{
+    font-size: 10px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.6);
+}
+section.second{
+    margin-top: 30px;
+}
+
+@media screen and (min-width: 767px) {
+    body{
+        padding: 0;
+    }
+    .container{
+        display: flex;
+        justify-content: flex-start;
+        margin-left: -150px;
+        margin-right: 8%;
+    }
+    .attribution{
+        visibility: hidden;
+    }
+    header{
+        display: flex;
+        width: 50%;
+        font-size: 15px;
+        order: 2; 
+        margin-top: -3px;
+    }
+    main{
+        width: 50%;
+        order: 1;
+        display: flex;
+        flex-direction: column;
+        border-bottom-left-radius: 8px;
+        border-top-left-radius: 8px;
+        border-bottom-right-radius: 0;
+        padding-left: 80px;
+    }
+    .second div{
+        display: flex;
+        flex-direction: row;
+        font-size: 10px;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: rgba(255, 255, 255, 0.6);
+    }
+    h3{
+        text-align: left;
+        margin-left: 0;
+    }
+    p{
+        text-align: start;
+        margin: 40px 0 5px 0;
+    }
+    img{
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+        border-top-left-radius: 0;
+        font-weight: 700;   
+    }
+        
+}
